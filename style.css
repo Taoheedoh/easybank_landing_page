@@ -21,9 +21,27 @@ body {
 }
 
 header{
-    
+    margin-left: 50px;
+    margin-right: 50px;
     nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+
+        #logo{
+          width: 100px; 
+          height: auto; 
+        }
+
+        ul{
+            display: flex;
+            gap: 15px;  
+            list-style: none;
+        }
+
+        #invite{
+            width: 100px;
+            height: auto;
+        }
     }
 }
